@@ -1,0 +1,100 @@
+ na cmd
+python --version = para mostrar 
+python = já executa comandos pelo próprio cmd
+
+=aula 4 ==
+
+print ('Olá, mundo') = vai mostrar na tela "Olá mundo"
+print (7+4) = vai mostrar na tela o resultado da soma 7+4 
+
+no python, toda variavel é um objeto
+
+"=" é no caso recebe (é tipo o >> do c)
+
+Desafio 01
+Crie um script que leia o nome de uma pessoa e mostre uma mensagem de boas vindas de acordo com o nome valor digitado.
+
+Desafio 02
+Crie um script que leia o dia, mês e ano de nascimento de uma pessoa e mostre uma mensagem com a data formatada.
+
+Desafio 03
+Crie um script que leia dois números e tente mostrar a soma entre eles.
+
+
+==aula 06==
+
+tipos primitivos
+int  = para números inteiros
+float = para números decimais
+bool = True ou False
+str (string) = Olá = padrão
+
+print('A soma vale {}').format{s})
+
+para testes de tipos utiliza-se o is, exemplo isalnum
+
+==aula 07==
+Operadores aritméticos
+
++, -, *, /, ** (potencia) ou pow(x,x), // (divisão inteira), %(resto da divisão)
+==(resultado)
+
+orderm de precedencia
+1. (),2. **, 3. * e /e //e %, 4. + e - 
+
+==aula 08==
+Utilizando modulos
+
+import bebida (importa tudo)
+from doce import pudin (importa algo especifico)
+
+==aula 009==
+cadeias de caracteres
+
+fatiamento = pegar uma letra especifica // exemplo frase[9]
+len(frase) = comprimento
+frase.cout('o') = o programa contará quantos "o" 
+frase.find('deo') = encontrar quantas vezes apareceu 'deo'
+'Curso' in frase = operador
+
+
+transformação
+
+frase.replace('Python', 'Android') = onde estiver escrito Python, será substituido por Android
+frase.upper() = as letras ficam maiuscula 
+frase.lower() = as letras ficam minuscula
+frase.capitalize() = todas as letras ficam minusculas, exceto a primeira 
+frase.title() =  todas as letras ficam minusculas, execeto a primeira de cada palavra
+frase.strip() = remove os espaços inúteis do inicio e final
+frase.rstrip() = remove os espaços inúteis do lado direito
+frase.lstrip() = remove os espaços inúteis do lado esquerdo
+
+divisão
+frase.split() =  em cada espaço cria uma divisão, ou seja, as palvras são divididas em listas (ESTUDAR MAIS SOBRE)
+
+junção
+'-'.join(frase) = vai juntar todos os espaços colocando um tracinho " - "
+
+
+==aula 10==
+Condições (Parte 1)
+ 
+if carro.esquerda()
+	bloco true
+else:
+	bloco false
+
+condição simplificada
+tempo = int(input('Quantos anos tem seu carro? '))
+print('carro novo') if tempo<=3 else 'carro velho')
+print('--FIM--')
+
+
+==aula 11==
+cores python (pelo padrão ansi)
+
+ansi = em padrão ansi começa com \
+
+forma basica para cores = \033[xx:xx:xxm que é igual \033[style:text:backgroundm
+#existe outras formas de colocar cores, uma delas é o color wise
+#o metodo mostrado na aula de lista, estudar mais

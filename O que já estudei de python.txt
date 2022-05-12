@@ -1,0 +1,12 @@
+Estudo de python
+Tipos primitivos 
+Saida de dados
+Operadores aritméticos
+Modulos (bibliotecas)
+Manipulação de Texto
+Cadeias de caracteres
+Condições (parte 1 - if e else)
+Cores Python 
+Condições (parte 2 - if, elif e else)
+Repetições For
+Repetições While
